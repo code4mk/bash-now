@@ -13,3 +13,7 @@ fi
 if $deepin_os ; then
    . ~/.bash_deepin;
 fi
+
+if [ -f ~/bash-alias/laravel ]; then
+   . ~/bash-alias/laravel;
+fi
