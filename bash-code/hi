@@ -1,0 +1,2 @@
+status='Bash Now , lets setup shell'
+echo "${status}"
