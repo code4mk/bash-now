@@ -7,17 +7,9 @@ echo "This ia active mode bash_profile"
 export Bash_Me=./bash-code
 export PATH=$Bash_Me:$PATH
 
-# os deepin status
-depeen_os= true
-
 # combine bashrc
 if [ -f .bashrc ]; then
    . .bashrc;
-fi
-
-# deepin core
-if $deepin_os ; then
-   . ~/.bash_deepin;
 fi
 
 # all alias
