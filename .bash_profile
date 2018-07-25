@@ -14,6 +14,6 @@ if $deepin_os ; then
    . ~/.bash_deepin;
 fi
 
-if [ -f ~/bash-alias/laravel ]; then
-   . ~/bash-alias/laravel;
-fi
+for file in ~/bash-alias/*; do
+  . ${file}
+done
