@@ -34,9 +34,11 @@ alias bncmp='composer'
 # bash coding
 
 ```bash
-> create file without extension
+#without extension
+> create file inside bash_coding directory
 > go to terminal
 > bash -l
+# test hit >> hi
 > file_name (no extension)
 ```
 
