@@ -43,6 +43,8 @@ NB: `.bashrc` & `.bash_profile` already have that time replace the file in the d
 
 # bash_alias directory
 
+* `~/bash-alias` directory
+
 ```bash
 > all alias store here
 > you can add your alias file just name (no extension)
@@ -55,12 +57,14 @@ alias bncmp='composer'
 ```bash
 > go to terminal
 > bash -l
-> p:v
-# composer
+> me
+# username
 # stay with bash -l
 ```
 
 # bash coding
+
+* `~/bash-coding` directory
 
 ```bash
 #without extension
