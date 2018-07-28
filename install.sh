@@ -1,10 +1,10 @@
 
 echo "bash-now is Installing..."
 
-if [ -d ~/bash-codes ]; then
-   echo "~/bash-codes bash coding"
+if [ -d ~/bash-code ]; then
+   echo "~/bash-code bash coding"
 else
-  mkdir ~/bash-codes
+  mkdir ~/bash-code
 fi
 
 if [ -d ~/bash-default ]; then
@@ -13,19 +13,19 @@ else
   mkdir ~/bash-default
 fi
 
-if [ -d ~/bash-aliass ]; then
-   echo "~/bash-aliass all aliases"
+if [ -d ~/bash-alias ]; then
+   echo "~/bash-alias all aliases"
 else
-  mkdir ~/bash-aliass
+  mkdir ~/bash-alias
 fi
 
 
 for file in ./bash-code/*; do
-  cp $file ~/bash-codes
+  cp $file ~/bash-code
 done
 
 for file in ./bash-alias/*; do
-  cp $file ~/bash-aliass
+  cp $file ~/bash-alias
 done
 
 if [ -f ~/.bashrc ]; then

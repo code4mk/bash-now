@@ -1,6 +1,13 @@
 # bash-now
 bash shell setup
 
+# Install
+
+```bash 
+git clone --depth=1 https://github.com/code4mk/bash-now.git
+cd bash-now
+./install.sh
+```
 # Manual setup
 
 ```bash

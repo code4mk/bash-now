@@ -2,8 +2,8 @@ echo "bash-now is uninstalling...."
 echo "Done Boss! >>  Try again"
 echo "https://github.com/code4mk/bash-now"
 
-if [ -d ~/bash-codes ]; then
-   rm -rf ~/bash-codes
+if [ -d ~/bash-code ]; then
+   rm -rf ~/bash-code
 fi
 
 if [ -d ~/bash-default ]; then
@@ -12,6 +12,6 @@ if [ -d ~/bash-default ]; then
    rm -rf ~/bash-default
 fi
 
-if [ -d ~/bash-aliass ]; then
-   rm -rf ~/bash-aliass
+if [ -d ~/bash-alias ]; then
+   rm -rf ~/bash-alias
 fi
