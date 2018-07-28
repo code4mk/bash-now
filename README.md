@@ -6,14 +6,20 @@ bash shell setup
 ```bash
 git clone --depth=1 https://github.com/code4mk/bash-now.git
 cd bash-now
+# linux
 ./install.sh
+# windows
+install.sh
 ```
 
 # Uninstall
 
 ```bash
 cd bash-now
+# linux
 ./uninstall.sh
+# windows
+uninstall.sh
 ```
 
 # Manual setup
