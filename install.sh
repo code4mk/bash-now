@@ -39,5 +39,6 @@ fi
 
 cp ./.bashrc ~/.bashrc
 cp ./.bash_profile ~/.bash_profile
+cp ./rm-bash-now.sh ~/.rm-bash-now.sh
 echo "Done >> Thanks Boss"
 echo "Hit terminal -> bash -l"
