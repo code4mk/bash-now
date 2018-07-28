@@ -6,9 +6,9 @@ bash shell setup
 ```bash
 git clone --depth=1 https://github.com/code4mk/bash-now.git
 cd bash-now
-# linux
+# with bash terminal
 ./install.sh
-# windows
+# without bash terminal
 install.sh
 ```
 
@@ -16,9 +16,9 @@ install.sh
 
 ```bash
 cd bash-now
-# linux
+# with bash terminal
 ./uninstall.sh
-# windows
+# without bash terminal
 uninstall.sh
 ```
 
