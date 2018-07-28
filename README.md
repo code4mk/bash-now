@@ -3,11 +3,19 @@ bash shell setup
 
 # Install
 
-```bash 
+```bash
 git clone --depth=1 https://github.com/code4mk/bash-now.git
 cd bash-now
 ./install.sh
 ```
+
+# Uninstall
+
+```bash
+cd bash-now
+./uninstall.sh
+```
+
 # Manual setup
 
 ```bash
