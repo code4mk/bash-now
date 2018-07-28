@@ -1,2 +1,2 @@
-status='Welcome Boss >> bash-now running'
+status='Welcome Boss >> bash-now is running'
 echo "${status}"

@@ -22,6 +22,14 @@ cd bash-now
 uninstall.sh
 ```
 
+# Delete clone directory
+
+```bash
+# hit terminal
+bash -l
+./bash-now-rm.sh
+```
+
 # Manual setup
 
 ```bash
@@ -47,7 +55,7 @@ alias bncmp='composer'
 ```bash
 > go to terminal
 > bash -l
-> bncmp
+> p:v
 # composer
 # stay with bash -l
 ```
