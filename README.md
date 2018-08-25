@@ -24,13 +24,6 @@ cd bash-now
 uninstall.sh
 ```
 
-# Delete clone directory
-
-```bash
-# hit terminal
-bash -l
-./bash-now-rm.sh
-```
 
 # Manual setup
 
@@ -63,6 +56,29 @@ alias bncmp='composer'
 > me
 # username
 # stay with bash -l
+```
+
+# laravel all alias
+
+```bash
+a.read
+```
+
+# yarn all alias
+
+```bash
+y.read
+```
+
+# npm all alias
+
+```bash
+n.read
+```
+# apm /atom all alias
+
+```bash
+atm.read
 ```
 
 # bash coding
