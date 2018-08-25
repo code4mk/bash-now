@@ -1,73 +1,87 @@
 #!/bin/bash
+#------------------------------
+#  0dev
+#  Software development comapny
+#  https://odev.co
+#------------------------------
 
-# A list of useful laravel aliases
+# LARAVEL alias >>  @code4mk
 
-alias laravel="${HOME}/.composer/vendor/bin/laravel"
-# asset
-alias a:apub='php artisan asset:publish'
+# read laravel alias lists
+alias a.read='cat ~/bash-alias/laravel'
+# artisan core
+alias a.='php artisan'
+alias a.v='php artisan --version'
+alias a.ls='php artisan list'
+alias a.help='php artisan help'
+alias a.s='php artisan serve'
+alias a.up='php artisan up'
+alias a.down='php artisan down'
+alias a.new='laravel new'
+# key generate
+alias a.key='php artisan key:generate'
+# tinker
+alias a.tinker='php artisan tinker'
+# generating command
+alias a.m.command='php artisan make:command'
+# make auth
+alias a.m.auth='php artisan make:auth'
+# make authorization
+alias a.m.policy='php artisan make:policy'
+# make controller
+alias a.m.controller='php artisan make:controller'
+# route
+alias a.r.ls='php artisan route:list'
+alias a.r.cache='php artisan route:cache'
+alias a.r.clear='php artisan route:clear'
+# middleware
+alias a.m.mware='php artisan make:middleware'
+# eloquent model
+alias a.m.model='php artisan make:model'
+alias a.m.observer='php artisan make:observer'
+# database
+alias a.m.mg='php artisan make:migration'
+alias a.m.factory='php artisan make:factory'
+alias a.mg='php artisan migrate'
+alias a.mg.install='php artisan migrate:install'
+alias a.mg.fresh='php artisan migrate:fresh'
+alias a.mg.refresh='php artisan migrate:refresh'
+alias a.mg.reset='php artisan migrate:reset'
+alias a.mg.rollback='php artisan migrate:rollback'
+alias a.mg.status='php artisan migrate:status'
+# frontend
+alias a.preset='php artisan preset'
+alias a.view='php artisan view:clear'
+# resource
+alias a.m.resource='php artisan make:resource'
+# file system
+alias a.storage='php artisan storage:link'
+# event
+alias a.event='php artisan event:generate'
+# mail
+alias a.m.mail='php artisan make:mail'
+# notification
+alias a.m.noti='php artisan make:notification'
+alias a.noti='php artisan notifications:table'
+# schedule
+alias a.schedule='php artisan schedule:run'
+# vendor
+alias a.vendor='php artisan vendor:publish'
+# deployment
+alias a.cnf.cache='php artisan config:cache'
+alias a.cnf.clear='php artisan config:cache'
 
-# auth
-alias a:remclear='php artisan auth:clear-reminders'
-alias a:remcontroller='php artisan auth:reminders-controller'
-alias a:remtable='php artisan auth:reminders-table'
-
-# cache
-alias a:cacheclear='php artisan cache:clear'
-
-# command
-alias a:command='php artisan command:make'
-
-# config
-alias a:confpub='php artisan config:publish'
-
-# controller
-alias a:controller='php artisan make:controller'
-
-# db
-alias a:seed='php artisan db:seed'
-
-# key
-alias a:key='php artisan key:generate'
-
-# migrate
-alias a:migrate='php artisan migrate'
-alias a:mig='a:migrate'
-alias a:miginstall='php artisan migrate:install'
-alias a:migmake='php artisan migrate:make'
-alias a:migcreate='php artisan migrate:create'
-alias a:migpublish='php artisan migrate:publish'
-alias a:migrefresh='php artisan migrate:refresh'
-alias a:migreset='php artisan migrate:reset'
-alias a:migrollback='php artisan migrate:rollback'
-alias a:rollback='a:migrollback'
-
-# queue
-alias a:qfailed='php artisan queue:failed'
-alias a:qfailedtable='php artisan queue:failed-table'
-alias a:qflush='php artisan queue:flush'
-alias a:qforget='php artisan queue:forget'
-alias a:qlisten='php artisan queue:listen'
-alias a:qretry='php artisan queue:retry'
-alias a:qsubscribe='php artisan queue:subscribe'
-alias a:qwork='php artisan queue:work'
-
-# session
-alias a:stable='php artisan session:table'
-
-# view
-alias a:vpub='php artisan view:publish'
-
-# misc
-alias a:='php artisan'
-alias a:changes='php artisan changes'
-alias a:down='php artisan down'
-alias a:env='php artisan env'
-alias a:help='php artisan help'
-alias a:list='php artisan list'
-alias a:optimize='php artisan optimize'
-alias a:routes='php artisan routes'
-alias a:serve='php artisan serve'
-alias a:tail='php artisan tail'
-alias a:tinker='php artisan tinker'
-alias a:up='php artisan up'
-alias a:work='php artisan workbench'
+# composer
+alias cm.='composer'
+alias cm.v='composer --version'
+alias cm.help='composer --help'
+alias cm.create='composer create-project'
+alias cm.in='composer install'
+alias cm.remove='composer remove'
+alias cm.out='composer outdated'
+alias cm.up='composer update'
+alias cm.ini='composer init'
+alias cm.dump='composer dump-autoload'
+alias cm.cache='composer clear-cache'
+alias cm.r='composer require'
+alias cm.g.r='composer global require'

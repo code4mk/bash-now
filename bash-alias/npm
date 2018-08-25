@@ -1,0 +1,31 @@
+#!/bin/bash
+#------------------------------
+#  0dev
+#  Software development comapny
+#  https://odev.co
+#------------------------------
+# npm alias >>  @code4mk
+
+# default alias
+alias n.read='cat ~/bash-alias/npm'
+alias n.v='npm -v '
+alias n..v='node -v'
+# basic alias
+alias n..='node'
+alias n.='npm'
+alias n.help='npm -h'
+alias n.au='npm adduser'
+alias n.o='npm logout'
+alias n.ini='npm init'
+alias n.in='npm install'
+alias n.g.in='npm -g install'
+alias n.unin='npm uninstall'
+alias n.ls='npm ls'
+alias n.out='npm outdated'
+alias n.up='npm update'
+alias n.pub='npm publish'
+alias n.unpub='npm unpublish'
+# script npm alias
+alias n.dev='npm run dev'
+alias n.build='npm run build'
+alias n.test='npm run test'

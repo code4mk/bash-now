@@ -1,0 +1,29 @@
+#!/bin/bash
+#------------------------------
+#  0dev
+#  Software development comapny
+#  https://odev.co
+#------------------------------
+
+# yarn alias >>  @code4mk
+
+# default
+alias y.read='cat ~/bash-alias/yarn'
+# basic
+alias y.='yarn'
+alias y.help='yarn help'
+alias y.v='yarn --version'
+alias y.add='yarn add'
+alias y.remove='yarn remove'
+alias y.in='yarn install'
+alias y.g.add='yarn global add'
+alias y.g.remove='yarn global remove'
+alias y.l='yarn login'
+alias y.o='yarn logout'
+alias y.out='yarn outdated'
+alias y.up='yarn upgrade'
+alias y.g.up='yarn global upgrade'
+# script npm alias
+alias y.dev='yarn run dev'
+alias y.build='yarn run build'
+alias y.test='yarn run test'

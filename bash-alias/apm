@@ -1,0 +1,14 @@
+#!/bin/bash
+#------------------------------
+#  0dev
+#  Software development comapny
+#  https://odev.co
+#------------------------------
+
+# atom/apm alias >>  @code4mk
+alias atm.read='cat ~/bash-alias/apm'
+alias atm.l='apm login'
+alias atm.publish='apm publish'
+alias atm.unpub='apm unpublish'
+alias atm.out='apm outdated'
+alias atm.up='apm update'
