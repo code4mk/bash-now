@@ -94,6 +94,8 @@ atm.read
 > file_name (no extension)
 ```
 
+* NB: your previous bashrc will be cached in `~/bash-default`
+
 # Author
 
 * [@code4mk](https://twitter.com/code4mk)
