@@ -35,7 +35,7 @@ alias a.r.ls='php artisan route:list'
 alias a.r.cache='php artisan route:cache'
 alias a.r.clear='php artisan route:clear'
 # middleware
-alias a.m.mware='php artisan make:middleware'
+alias a.m.ware='php artisan make:middleware'
 # eloquent model
 alias a.m.model='php artisan make:model'
 alias a.m.observer='php artisan make:observer'
@@ -60,16 +60,41 @@ alias a.storage='php artisan storage:link'
 alias a.event='php artisan event:generate'
 # mail
 alias a.m.mail='php artisan make:mail'
+# make
+alias a.m.exception='php artisan make:exception'
+alias a.m.job='php artisan make:job'
+alias a.m.listener='php artisan make:listener'
+alias a.m.provider='php artisan make:provider'
+alias a.m.request='php artisan make:request'
+alias a.m.rule='php artisan make:rule'
+alias a.m.seeder='php artisan make:seeder'
+alias a.m.test='php artisan make:test'
 # notification
 alias a.m.noti='php artisan make:notification'
 alias a.noti='php artisan notifications:table'
+# cache
+alias a.ca.clear='php artisan cache:clear'
+alias a.ca.forget='php artisan cache:forget'
+alias a.ca.table='php artisan cache:table'
 # schedule
 alias a.schedule='php artisan schedule:run'
+# queue
+alias a.q.fail='php artisan queue:failed'
+alias a.q.fail.t='php artisan queue:failed-table'
+alias a.q.flush='php artisan queue:flush'
+alias a.q.forget='php artisan queue:forget'
+alias a.q.listen='php artisan queue:listen'
+alias a.q.restart='php artisan queue:restart'
+alias a.q.retry='php artisan queue:retry'
+alias a.q.table='php artisan queue:table'
+alias a.q.work='php artisan queue:work'
+#session
+alias a.ses='php artisan session:table'
 # vendor
 alias a.vendor='php artisan vendor:publish'
 # deployment
-alias a.cnf.cache='php artisan config:cache'
-alias a.cnf.clear='php artisan config:cache'
+alias a.cf.cache='php artisan config:cache'
+alias a.cf.clear='php artisan config:cache'
 
 # composer
 alias cm.='composer'
