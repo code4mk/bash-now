@@ -1,4 +1,4 @@
-<p align="center" ><img src="https://user-images.githubusercontent.com/17185462/43356534-0acdf760-9294-11e8-9227-17c3c5a4fcb5.jpg"></p>
+<a href="https://github.com/code4mk/bash-now"><p align="center" ><img src="https://user-images.githubusercontent.com/17185462/43356534-0acdf760-9294-11e8-9227-17c3c5a4fcb5.jpg"></p></a>
 
 # bash-now
 bash shell setup
